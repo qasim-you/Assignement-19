@@ -1,0 +1,53 @@
+.feature {
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 0;
+
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 30px;
+}
+
+.img-col {
+
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.feature h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:600px) {
+    .text-col,
+    .img-col {
+        flex-basis: 100%;
+
+    }
+
+    .feature h2 {
+        font-size: 30px;
+
+    }
+
+    .feature p {
+        font-size: 15px;
+    }
+}
