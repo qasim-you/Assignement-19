@@ -1,0 +1,11 @@
+.navbar {
+    background-color: transparent; 
+    color: #f5efef;
+    /* Initial background color */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Transition for smooth color change */
+  }
+  
+  .navbar.scrolled {
+    background-color: #f5efef;
+    /* color: black;  */
+  }
