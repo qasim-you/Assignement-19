@@ -1,5 +1,9 @@
 import React from "react";
 import "./Services.css"
+import img2 from '../../Assets/Images/1.jpg';
+import img3  from '../../Assets/Images/2.jpg';
+import img4  from '../../Assets/Images/3.jpg';
+import Cards from "../../common/Cards";
 
 const Services = () => {
   return <div className="service">
@@ -8,21 +12,24 @@ const Services = () => {
     Our Services
   </h1>
   <div id="services">
-    <div className="box">
-        <img src="./1.jpg" alt="" />
-        <h2 className="h2-secondary center">Food Ordering</h2>
-        <p className="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur nostrum provident ut optio accusamus </p>
-    </div>
-    <div className="box">
-        <img src="./2.jpg" alt="" />
-        <h2 className="h2-secondary center">Bulk Ordering</h2>
-        <p className="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur nostrum provident ut optio accusamus </p>
-    </div>
-    <div className="box">
-        <img src="./3.jpg" alt="" />
-        <h2 className="h2-secondary center">Home Ordering</h2>
-        <p className="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur nostrum provident ut optio accusamus </p>
-    </div>
+  <Cards
+  image={img2}
+  title="Food Ordering"
+  
+  
+  />
+  <Cards
+  image={img3}
+  title="Builk Ordering"
+  
+  
+  />
+  <Cards
+  image={img4}
+  title="Home Ordering"
+  
+  
+  />
   </div>
 
 
