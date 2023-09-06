@@ -16,8 +16,4 @@ code {
 }
 
 
-@media screen and (min-width: 480px) {
-  body {
-    background-color: lightgreen;
-  }
-}
+

@@ -1,0 +1,57 @@
+#home{
+
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    top: 0;
+    left: 0;
+    padding: 6px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(../../Assets/Images/back3.jpg ) no-repeat center center/cover;   
+    top: 0px;
+    left: 0px;
+     height:642px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+ 
+}
+#home h1{
+color: white;
+text-align: center;
+
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.btn{
+
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color:rgb(108, 102, 102);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    .btn:hover{
+    
+    background-color:rgb(170, 166, 166);
+    transition: all 1s ease-in-out;
+    border: gray;
+    }
+    .center{
+    
+        text-align: center;
+    }     

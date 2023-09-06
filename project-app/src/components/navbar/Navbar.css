@@ -1,0 +1,62 @@
+/* Navigation Bar */
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 0;
+    
+    }
+    #logo{
+    margin: 34px 45px;
+    }
+    #logo img{
+        margin: 3px 5px;
+    height: 72px;
+    border-radius: 50%;
+    width: 100px;
+    }
+    #navbar ul{
+    
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    #navbar::before{
+    content: "";
+    background-color: black;   
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    top: 0px;
+    left: 0px;
+    
+    }
+    #navbar ul li{
+      
+        display: flex;
+        list-style: none;
+        font-size: 1.3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    
+    
+    #navbar ul li a{
+        color:white;
+      display: block;
+      padding: 3px 22px;
+      border-radius: 22px;
+      text-decoration: none;
+    }
+    
+    
+    
+    
+    #navbar ul li a:hover{
+        color:black;
+        background-color: white;
+        
+    }

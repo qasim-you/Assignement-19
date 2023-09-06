@@ -10,8 +10,14 @@
    
 }
 h1{
-    font-size: 72px;
+    font-size: 62px;
     background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1 span {
+    font-size: 52px;
+    background: -webkit-linear-gradient(#eee, #3e3d3d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -23,6 +29,7 @@ button{
     color: white;
     padding: 20px;
     font-size: 1.5rem;
+    cursor: pointer;
     transition: all 3 ease-in-out;
 }
 button:hover {

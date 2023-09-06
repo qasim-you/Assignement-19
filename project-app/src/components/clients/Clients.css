@@ -1,0 +1,43 @@
+#client-section{
+    position: relative;
+    height: 344px;
+    }
+#client-section::before{
+    content: "";
+   
+    position: absolute;
+  
+    z-index: -1;
+    background-size: cover;
+    
+    opacity: 0.3;
+    }
+#clients{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    
+#clients img{
+    
+    height: 124px;
+    }
+    .client-item{
+    padding: 34px;
+    
+    }
+.h-primary{
+     
+        font-size: 3.8rem;
+        padding: 12px;
+        font-family: 'Poppins', sans-serif;
+    }
+.h-secondary{
+    
+        font-size: 2.4rem;
+        padding:12px;
+        font-family: 'Poppins', sans-serif;
+    }
