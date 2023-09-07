@@ -1,0 +1,53 @@
+.cards{
+height: 10vh;
+font-size: 1.7rem;
+
+animation-duration: 2s;
+animation-iteration-count: infinite;
+transform-origin: bottom;
+
+
+}
+h1{
+    font-size: 58px;
+    background: -webkit-linear-gradient(#eee, #3e3d3d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    text-decoration:underline 5px solid rgba(111, 134, 157, 0.8) ;
+    transition: all 1s ease-in-out;
+}
+h1:hover{
+    text-decoration:underline 6px solid #595611cc ;
+}
+h2{
+    font-size: 52px;
+    background: -webkit-linear-gradient(#eeeeee, #3e3d3d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     
+}
+p{
+    font-size: 18px;
+    background: -webkit-linear-gradient(#eee, #3e3d3d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.cards:hover{
+
+cursor: pointer;
+
+   
+animation-name: bounce;
+animation-timing-function: ease;     
+
+     
+}
+ 
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+  }
+

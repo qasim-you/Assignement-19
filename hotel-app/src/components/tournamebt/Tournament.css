@@ -1,0 +1,22 @@
+.cardi{
+    backdrop-filter: blur(1rem);
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    width: 90%;
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+}
+
+
+.cardi:hover {
+    transform: scale(1.08); /* Increase size on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer; /* Add a shadow on hover */
+}
+
+.cardi:hover img {
+    opacity: 0.7; /* Reduce image opacity on hover */
+}
+
+.cardi:hover .card-content {
+    padding: 30px; /* Increase padding on hover */
+}
