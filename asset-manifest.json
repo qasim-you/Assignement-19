@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Assignement-19/tree/main/hotel-app/static/css/main.50d9a859.css",
+    "main.js": "/Assignement-19/tree/main/hotel-app/static/js/main.1f65e62d.js",
+    "static/js/787.3377b723.chunk.js": "/Assignement-19/tree/main/hotel-app/static/js/787.3377b723.chunk.js",
+    "static/media/back.jpg": "/Assignement-19/tree/main/hotel-app/static/media/back.a0704fc2a5dcfa9a14a7.jpg",
+    "static/media/card2.jpg": "/Assignement-19/tree/main/hotel-app/static/media/card2.e47196acffd6530f89d9.jpg",
+    "static/media/card6.jpg": "/Assignement-19/tree/main/hotel-app/static/media/card6.3f1861cbe547af90d344.jpg",
+    "static/media/card4.jpg": "/Assignement-19/tree/main/hotel-app/static/media/card4.6af53204e4b647cc0805.jpg",
+    "static/media/card5.jpg": "/Assignement-19/tree/main/hotel-app/static/media/card5.b5ca425d42e0f5f4615b.jpg",
+    "static/media/about.jpg": "/Assignement-19/tree/main/hotel-app/static/media/about.8bdb583bc58e67cd4eec.jpg",
+    "static/media/card1.jpg": "/Assignement-19/tree/main/hotel-app/static/media/card1.51767eee36c34e1b317a.jpg",
+    "static/media/card3.jpg": "/Assignement-19/tree/main/hotel-app/static/media/card3.f34b20af74cc8d25c342.jpg",
+    "static/media/54848673.jpg": "/Assignement-19/tree/main/hotel-app/static/media/54848673.277023ca083ff62bb368.jpg",
+    "index.html": "/Assignement-19/tree/main/hotel-app/index.html",
+    "main.50d9a859.css.map": "/Assignement-19/tree/main/hotel-app/static/css/main.50d9a859.css.map",
+    "main.1f65e62d.js.map": "/Assignement-19/tree/main/hotel-app/static/js/main.1f65e62d.js.map",
+    "787.3377b723.chunk.js.map": "/Assignement-19/tree/main/hotel-app/static/js/787.3377b723.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50d9a859.css",
+    "static/js/main.1f65e62d.js"
+  ]
+}
