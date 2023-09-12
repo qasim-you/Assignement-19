@@ -9,7 +9,6 @@ import Client from './components/client/Client';
 import Newsletter from './components/newsletter/Newsletter';
 import Footer from './components/footer/Footer';
 
-
 function App() {
   return (
     <div className="App">
